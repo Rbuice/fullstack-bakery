@@ -1,0 +1,55 @@
+.baked-goods {
+  flex-direction: column;
+  display: flex;
+  gap: 1ch;
+  color: white;
+  font-size: larger;
+}
+li {
+  background-color: brown;
+  border-radius: 1ch;
+  padding: 1ch;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20vh;
+}
+a {
+  font-size: larger;
+}
+main {
+  display: flex;
+  flex-grow: 3;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  order: 2;
+  gap: 2vw;
+  border: 1ch;
+}
+article {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+.testimonial {
+  background-color: gray;
+}
+.brand {
+  font-size: 5ch;
+  color: red;
+  font-style: italic;
+}
+footer {
+  align-self: center;
+  color: white;
+  background-color: black;
+  padding-left: 50ch;
+  padding-right: 50ch;
+}
